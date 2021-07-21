@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    color: white;
+    size: 2vh;
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+header {
+    background-color: rgb(40, 8, 71);
+    padding: 1.75em;
+}
+
+
+nav {
+    float: right;
+    margin-right: 10ch;
+}
+
+nav > a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+span.name{
+    position: relative;
+    left: 11%;
+}
+
+#home{
+    background-image: url("../images/background.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
